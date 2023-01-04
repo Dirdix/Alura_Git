@@ -1,0 +1,50 @@
+<!DOCTYPE html><!-- Esto es un comentario--><!--a-->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/reset.css">
+		<link rel="stylesheet" href="CSS/Style.css">
+		<title>Encriptador</title>
+
+	</head>
+	<body>
+		<script src="JavaScript/Programa.js"></script>
+		<header>
+			<div class="Titulo">
+			<img src="Imagenes/Alura_Icon.png" id="imgIcon">
+				
+				<p id="txtTitulo">Programa encriptador</p>
+			</div>
+			
+		</header>
+
+		<main>
+			<div class="txtCaptura">
+				<input type="text" id="idCaptura" placeholder="Escriba su texto aqui" onkeypress="validaCaractaer(event)">					
+			</div>
+			<div class="txtImprimir">
+				<textarea id="idImpresion" disabled="true" value=" " ></textarea>
+			</div>
+			<p id="acepto">Acepta letras minusculas y con acento
+			<div class="Buttons">
+			<ul class="Botones">
+				<li Class="Encriptar">
+					<button class="btnEncriptar"id="btnEncriptar" onclick="capturaEncriptar()">Encriptar</button>
+				</li>
+				<li Class="Desencriptar">
+					<button class="btnDesencriptar" id="btnDesencriptar" onclick="capturaDesencriptar()">Desencriptar</button>
+				</li>
+				<li Class="Copiar">
+					<button class="btnCopiar" id="btnCopiar" onclick="copiarTexto('idImpresion');">Copiar</button>
+				</li>
+			</ul>
+			</div>
+		</main>
+		
+
+	</body>
+	<footer>
+		
+	</footer>
+
+</html>

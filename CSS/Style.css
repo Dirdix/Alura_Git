@@ -1,0 +1,182 @@
+body{
+	position: relative;
+	margin: 5px;
+	background: #F3F5FC;	
+}
+.Titulo{
+	display: block;
+	width: auto;
+	height: 66px;
+}
+#imgIcon{
+	position: absolute;
+	margin: 10px 0 0 10px;	
+}
+#txtTitulo{
+	position: relative;
+	font-size: 20px;
+	text-align: center;
+	top: 20px;
+}
+.txtCaptura{
+	display: inline-block;
+	width: 625px;
+	height: auto;
+	vertical-align: top;
+}
+#idCaptura{
+	position: relative;
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+	top: 5px;
+	left: 5px;	
+	height: 48px;
+	width: 290px;
+	
+}
+.txtImprimir{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	vertical-align: bottom;
+}
+#idImpresion{
+	position: relative;
+	font-family: 'Inter';
+	font-style: normal;
+	font-size: 32px;
+	line-height: 150%;
+	color: #0A3871;
+	top: 5px;
+	left: 5px;
+	height: 240px;
+	width: 290px;
+	border-radius: 32px;
+	display: block;
+	resize: none;
+}
+
+#acepto{
+	width: 228px;
+	height: 18px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 150%;
+	color: #495057;
+	opacity: 0.8;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+.Botones li{
+	display: inline-block;
+}
+.Encriptar {
+	box-sizing: border-box;
+	display: flex;
+	position: relative;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+	width: 310px;
+	height: 67px;
+	background: #0A3871;
+	border-radius: 24px;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+#btnEncriptar{
+	width: 262px;
+	height: 30px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 19px;
+	text-align: center;
+	background: #0A3871;
+	border-radius: 24px;
+	border-style: none;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+#btnEncriptar:hover{
+	color: red;
+}
+.Desencriptar {
+	box-sizing: border-box;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+	width: 310px;
+	height: 67px;
+	background: #D8DFE8;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+}
+#btnDesencriptar{
+	width: 262px;
+	height: 30px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 19px;
+	text-align: center;
+	background: #D8DFE8;
+	color: #0A3871;
+	border-style: none;
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+}
+#btnDesencriptar:hover{
+	color: red;
+}
+.Copiar{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 24px;
+	gap: 8px;
+	position: relative;
+	width: 310px;
+	height: 67px;
+	border: 1px solid #0A3871;
+	border-radius: 24px;
+	background: white;
+}
+#btnCopiar{
+	width: 262px;
+	height: 30px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 19px;
+	text-align: center;
+	background: white;
+	border-style: none;
+	color: #0A3871;
+	flex: none;
+	order: 0;
+	flex-grow: 1;
+}
+#btnCopiar:hover{
+	color: red;
+}
